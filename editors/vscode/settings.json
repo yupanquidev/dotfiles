@@ -40,12 +40,7 @@
     "textMateRules": [
       {
         "scope": [
-          "comment",
-          "entity.name.type.class",
-          "keyword",
-          "constant",
-          "storage.modifier",
-          "storage.type"
+          "comment"
         ],
         "settings": {
           "fontStyle": "italic"
@@ -54,10 +49,11 @@
       {
         "scope": [
           "keyword.operator",
-          "constant.numeric"
+          "constant.numeric",
+          "entity"
         ],
         "settings": {
-          "fontStyle": "italic bold"
+          "fontStyle": "bold"
         }
       }
     ]
@@ -91,7 +87,7 @@
   },
   "html.format.extraLiners": "",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.format.semicolons": "remove",
+  "javascript.format.semicolons": "insert",
   "javascript.preferences.quoteStyle": "single",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
@@ -103,7 +99,7 @@
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.fontFamily": "'MesloLGM NF'",
   "typescript.preferences.quoteStyle": "single",
-  "typescript.format.semicolons": "remove",
+  "typescript.format.semicolons": "insert",
   "window.title": "${rootName}",
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
