@@ -3,6 +3,9 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.colorDecorators": true,
+  "editor.comments.insertSpace": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.find.cursorMoveOnType": true,
   "editor.find.addExtraSpaceOnTop": false,
@@ -10,20 +13,107 @@
   "editor.fontFamily": "'Monaspace Neon', monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "editor.fontSize": 12.5,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.indentation": true,
+  "editor.indentSize": "tabSize",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.insertSpaces": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "always",
   "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollBeyondLastLine": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class",
+          "keyword",
+          "constant",
+          "storage.modifier",
+          "storage.type"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator",
+          "constant.numeric"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
   "errorLens.fontFamily": "'Monaspace Krypton'",
   "errorLens.fontStyleItalic": true,
   "errorLens.fontSize": "12px",
   "errorLens.fontWeight": "400",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json, vite.config.ts, postcss.config.js, tailwind.config.js, vite.config.js, rome.json, .eslintrc.js",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml "
+  },
+  "extensions.ignoreRecommendations": true,
   "files.autoSave": "afterDelay",
   // "files.autoSaveDelay": 3000,
   "files.insertFinalNewline": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.removeTags": {
+    "tags": "2"
+  },
   "html.format.extraLiners": "",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
-  "window.title": "${rootName}"
+  "oneDarkPro.bold": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "oneDarkPro.vivid": true,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.fontFamily": "'MesloLGM NF'",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.format.semicolons": "remove",
+  "window.title": "${rootName}",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.showTabs": "single",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons"
 }
