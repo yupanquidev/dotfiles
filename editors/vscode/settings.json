@@ -50,7 +50,10 @@
         "scope": [
           "keyword.operator",
           "constant.numeric",
-          "entity"
+          "entity.name.selector",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.type"
         ],
         "settings": {
           "fontStyle": "bold"
