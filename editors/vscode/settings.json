@@ -34,7 +34,7 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
-  "editor.scrollBeyondLastLine": false,
+  "editor.scrollBeyondLastLine": true,
   "editor.stickyScroll.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -75,7 +75,7 @@
     "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml "
   },
   "extensions.ignoreRecommendations": true,
-  "files.autoSave": "afterDelay",
+  // "files.autoSave": "afterDelay",
   // "files.autoSaveDelay": 3000,
   "files.insertFinalNewline": true,
   "github.copilot.enable": {
