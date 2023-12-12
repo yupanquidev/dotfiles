@@ -115,5 +115,6 @@
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": true,
   "workbench.productIconTheme": "fluent-icons"
 }
