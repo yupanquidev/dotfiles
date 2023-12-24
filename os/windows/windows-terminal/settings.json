@@ -90,12 +90,10 @@
         "source": "Git"
       },
       {
-        "backgroundImage": "C:\\Users\\hyupa\\OneDrive\\Documentos\\PowerShell\\img\\debian.png",
         "backgroundImageOpacity": 0.8,
         "backgroundImageStretchMode": "uniform",
         "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
         "hidden": false,
-        "icon": "C:\\Users\\hyupa\\OneDrive\\Documentos\\PowerShell\\img\\debian-icon.png",
         "name": "Debian",
         "source": "Windows.Terminal.Wsl"
       }
