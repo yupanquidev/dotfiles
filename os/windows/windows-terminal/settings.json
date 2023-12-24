@@ -1,0 +1,172 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "alwaysShowNotificationIcon": true,
+  "alwaysShowTabs": false,
+  "autoHideWindow": false,
+  "copyFormatting": "all",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "experimental.rendering.forceFullRepaint": true,
+  "experimental.rendering.software": true,
+  "focusFollowMouse": false,
+  "initialCols": 110,
+  "initialRows": 30,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "yupanquidev",
+      "font": {
+        "face": "MesloLGM NF",
+        "size": 9.0
+      },
+      "opacity": 85,
+      "padding": "8",
+      "scrollbarState": "hidden",
+      "useAcrylic": true,
+      "useAtlasEngine": true
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "S\u00edmbolo del sistema"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "backgroundImage": null,
+        "backgroundImageAlignment": "center",
+        "backgroundImageOpacity": 0.5,
+        "backgroundImageStretchMode": "uniform",
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "hidden": false,
+        "name": "Git Bash",
+        "source": "Git"
+      },
+      {
+        "backgroundImage": "C:\\Users\\hyupa\\OneDrive\\Documentos\\PowerShell\\img\\debian.png",
+        "backgroundImageOpacity": 0.8,
+        "backgroundImageStretchMode": "uniform",
+        "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+        "hidden": false,
+        "icon": "C:\\Users\\hyupa\\OneDrive\\Documentos\\PowerShell\\img\\debian-icon.png",
+        "name": "Debian",
+        "source": "Windows.Terminal.Wsl"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#23272E",
+      "black": "#23272E",
+      "blue": "#BD93F9",
+      "brightBlack": "#6272A4",
+      "brightBlue": "#D6ACFF",
+      "brightCyan": "#00FFFF",
+      "brightGreen": "#69FF94",
+      "brightPurple": "#FF92DF",
+      "brightRed": "#FF6E6E",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFF5C",
+      "cursorColor": "#CFD1E4",
+      "cyan": "#8BE9FD",
+      "foreground": "#D3D3D3",
+      "green": "#50FA7B",
+      "name": "yupanquidev",
+      "purple": "#FF79C6",
+      "red": "#FF5555",
+      "selectionBackground": "#1E2227",
+      "white": "#F8F8F2",
+      "yellow": "#F9FFA0"
+    }
+  ],
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true,
+  "tabWidthMode": "compact",
+  "themes": [
+    {
+      "name": "legacyDark",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "useMica": false
+      }
+    },
+    {
+      "name": "legacyLight",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "light",
+        "useMica": false
+      }
+    },
+    {
+      "name": "legacySystem",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "system",
+        "useMica": false
+      }
+    }
+  ],
+  "useAcrylicInTabRow": true,
+  "windowingBehavior": "useNew"
+}
