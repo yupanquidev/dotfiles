@@ -36,6 +36,9 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollBeyondLastLine": true,
   "editor.stickyScroll.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
