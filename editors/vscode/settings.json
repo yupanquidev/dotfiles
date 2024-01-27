@@ -37,7 +37,7 @@
   "editor.scrollBeyondLastLine": true,
   "editor.stickyScroll.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -93,7 +93,7 @@
   },
   "html.format.extraLiners": "",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.format.semicolons": "insert",
+  "javascript.format.semicolons": "remove",
   "javascript.preferences.quoteStyle": "single",
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
@@ -104,8 +104,9 @@
   "svelte.plugin.svelte.format.config.singleQuote": true,
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.fontFamily": "'MesloLGM NF'",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.preferences.quoteStyle": "single",
-  "typescript.format.semicolons": "insert",
+  "typescript.format.semicolons": "remove",
   "window.title": "${rootName}",
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
