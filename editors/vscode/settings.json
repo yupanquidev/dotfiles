@@ -73,8 +73,6 @@
     "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, tsconfig.json, tailwind.config.cjs"
   },
   "extensions.ignoreRecommendations": true,
-  // "files.autoSave": "afterDelay",
-  // "files.autoSaveDelay": 3000,
   "files.insertFinalNewline": true,
   "github.copilot.enable": {
     "*": true,
