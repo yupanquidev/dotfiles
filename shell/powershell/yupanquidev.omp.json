@@ -1,98 +1,24 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "console_title_template": " {{ .Folder }} :: {{if .Root}}Admin{{end}}",
+  "console_title_template": "{{ .Folder }}{{if .Root}}Admin{{end}}",
   "blocks": [
     {
       "alignment": "left",
       "segments": [
         {
-          "type": "text",
-          "style": "plain",
-          "background": "transparent",
-          "foreground": "#C591E8",
-          "template": "\u256d\u2500 "
-        },
-        {
           "type": "path",
           "style": "plain",
-          "foreground": "#00E1FF",
+          "foreground": "#7583D7",
           "properties": {
             "style": "folder"
           },
-          "template": "<b>{{ .Path }}</b> 🦫 "
+          "template": "~/{{ .Path }}"
         },
         {
           "type": "git",
-          "foreground": "#C678DD",
+          "foreground": "#00FFFF",
           "background": "transparent",
-          "style": "powerline",
-          "template": "{{ .HEAD }}{{ if and (eq .Ahead 0) (eq .Behind 0) }} \u2261{{end}}{{ if gt .Ahead 0 }} \u2191{{.Ahead}}{{end}}{{ if gt .Behind 0 }} \u2193{{.Behind}}{{end}} {{ if .Working.Changed }}<#eb6ab7>+{{ .Working.Added }}</> <#FDB813>~{{ .Working.Modified }}</> <#FF5733>-{{ .Working.Deleted }}</>{{ end }} ",
-          "properties": {
-            "cherry_pick_icon": "<#EB6AB7>\u2713</> ",
-            "commit_icon": "<#EB6AB7>\u25b7</> ",
-            "fetch_status": true,
-            "merge_icon": "\u25f4 ",
-            "fetch_upstream_icon": true,
-            "tag_icon": "\u25b6 "
-          }
-        }
-      ],
-      "type": "prompt"
-    },
-    {
-      "alignment": "right",
-      "overflow": "hide",
-      "segments": [
-        {
-          "type": "go",
-          "style": "plain",
-          "foreground": "#7FD5EA",
-          "template": "|‭ﳑ {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} "
-        },
-        {
-          "foreground": "#6CA35E",
-          "style": "powerline",
-          "template": "|  {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
-          "type": "node"
-        },
-        {
-          "foreground": "#06A4CE",
-          "style": "powerline",
-          "template": "|  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} |",
-          "type": "dart"
-        },
-        {
-          "type": "flutter",
-          "style": "powerline",
-          "foreground": "#1389FD",
-          "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} "
-        },
-        {
-          "foreground": "red",
-          "style": "plain",
-          "template": "| root ",
-          "type": "root"
-        },
-        {
-          "foreground_templates": [
-            "{{if eq \"Charging\" .State.String}}#4CAF50{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#40C4FF{{end}}",
-            "{{if eq \"Full\" .State.String}}#FF0000{{end}}"
-          ],
-          "invert_powerline": true,
-          "properties": {
-            "charged_icon": "\uf00d ",
-            "charging_icon": "\ue234 "
-          },
-          "style": "powerline",
-          "template": "| {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }} \uf295 ",
-          "type": "battery"
-        },
-        {
-          "foreground": "#00C5C7",
-          "style": "plain",
-          "template": "| {{ .CurrentDate | date .Format }} \uf017 ",
-          "type": "time"
+          "style": "powerline"
         }
       ],
       "type": "prompt"
@@ -102,30 +28,25 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#C591E8",
+          "foreground": "#C669FF",
           "foreground_templates": [
-            "{{ if gt .Code 0 }}#F7768E{{ end }}"
+            "{{ if gt .Code 0 }}#C0696C{{ end }}"
           ],
           "properties": {
             "always_enabled": true
           },
           "style": "plain",
-          "template": "\u2570\u2500<#69FF94>\ue285</>",
+          "template": "\ue285",
           "type": "text"
         }
       ],
       "type": "prompt"
     }
   ],
-  "secondary_prompt": {
-    "background": "transparent",
-    "foreground": "#7AA2f7",
-    "template": "\u279c "
-  },
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#7AA2f7",
-    "template": "\u279c "
+    "template": "<b>~</b> "
   },
   "final_space": true,
   "version": 2
