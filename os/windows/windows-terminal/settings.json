@@ -46,7 +46,8 @@
       "colorScheme": "yupanquidev",
       "font": {
         "face": "MesloLGM NF",
-        "size": 9.0
+        "size": 9.0,
+        "weight": "bold"
       },
       "opacity": 85,
       "padding": "8",
