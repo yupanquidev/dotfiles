@@ -103,7 +103,7 @@
   "window.title": "${rootName}",
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "bottom",
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.wrapTabs": true,
   "workbench.editor.showTabs": "single",
@@ -114,7 +114,4 @@
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
   "workbench.productIconTheme": "fluent-icons",
-  "files.exclude": {
-    "": true
-  }
 }
