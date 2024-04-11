@@ -10,7 +10,7 @@
   "editor.find.cursorMoveOnType": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.folding": true,
-  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontFamily": "'Monaspace Neon'",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "editor.fontSize": 12.5,
   "editor.formatOnPaste": true,
@@ -36,19 +36,13 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollBeyondLastLine": true,
   "editor.stickyScroll.enabled": true,
+  "editor.inlineSuggest.fontFamily": "'Monaspace Krypton'",
+  "editor.suggestFontSize": 12,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      {
-        "scope": [
-          "comment"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
       {
         "scope": [
           "keyword.operator",
@@ -73,7 +67,6 @@
     "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, tsconfig.json, tailwind.config.cjs"
   },
   "extensions.ignoreRecommendations": true,
-  "files.insertFinalNewline": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
@@ -102,7 +95,7 @@
   "typescript.format.semicolons": "remove",
   "window.title": "${rootName}",
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "bottom",
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.wrapTabs": true,
@@ -113,5 +106,5 @@
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.productIconTheme": "fluent-icons"
 }
