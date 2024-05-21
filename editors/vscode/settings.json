@@ -7,6 +7,7 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
+  "editor.detectIndentation": false,
   "editor.find.cursorMoveOnType": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.folding": true,
