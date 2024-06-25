@@ -7,7 +7,7 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
-  "editor.detectIndentation": false,
+  "editor.detectIndentation": true,
   "editor.find.cursorMoveOnType": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.folding": true,
@@ -68,6 +68,7 @@
     "package.json": "package-lock.json, pnpm-lock.yaml, .gitignore, astro.config.mjs, tsconfig.json, tailwind.config.cjs"
   },
   "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
