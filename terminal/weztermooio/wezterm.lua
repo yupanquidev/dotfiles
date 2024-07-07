@@ -1,4 +1,15 @@
-local wezterm = require("wezterm")
+local wezterm = require 'wezterm'
+local fonts = require 'fonts'
+
+local config = {}
+
+-- WSL
+config.default_domain = 'WSL:Debian'
+
+-- Font
+config.font = fonts.fonts
+config.font_size = fonts.size
+config.harfbuzz_features = fonts.harfbuzz_features
 
 return {
   default_prog = {"wsl.exe", "-d", "Debian", "--cd", "~"},
@@ -34,3 +45,4 @@ return {
 
 }
 
+return config
