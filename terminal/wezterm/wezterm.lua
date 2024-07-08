@@ -11,6 +11,9 @@ config.font = fonts.fonts
 config.font_size = fonts.size
 config.harfbuzz_features = fonts.harfbuzz_features
 
+-- Color
+config.colors = colors.colors
+
 return {
   default_prog = {"wsl.exe", "-d", "Debian", "--cd", "~"},
   enable_tab_bar = false,
