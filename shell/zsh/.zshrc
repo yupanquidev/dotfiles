@@ -69,6 +69,21 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias pn=pnpm
 
 # Shell integrations
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# fnm
+FNM_PATH="/home/yupan/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/yupan/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
+
+# pnpm
+export PNPM_HOME="/home/yupan/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
