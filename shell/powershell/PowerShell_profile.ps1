@@ -4,6 +4,10 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\yupanquidev.omp.json" | Inv
 # Icons
 Import-Module -Name Terminal-Icons
 
+# Alias
+function brave { start arc }
+function arc { start arc }
+
 # PNPM
 Set-Alias -Name pn -value pnpm
 
