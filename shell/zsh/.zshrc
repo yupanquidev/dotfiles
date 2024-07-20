@@ -70,7 +70,16 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls --color'
 alias pn=pnpm
+alias px='pnpm dlx'
 alias cat='batcat'
+alias g='git'
+alias gp='git push'
+alias gl='git pull'
+alias ga='git add'
+alias gc='git commit'
+alias gs='git status'
+alias gb='git branch'
+alias ggraph='git log --all --decorate --oneline --graph'
 
 # Extract nmap information
 function extractPorts(){
