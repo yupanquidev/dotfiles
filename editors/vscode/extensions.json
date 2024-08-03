@@ -1,6 +1,17 @@
 {
   "recommendations": [
-    "astro-build.astro-vscode"
+    "astro-build.astro-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode-remote.remote-wsl",
+    "dbaeumer.vscode-eslint",
+    "Meezilla.json",
+    "bradlc.vscode-tailwindcss",
+    "pflannery.vscode-versionlens",
+    "usernamehw.errorlens",
+    "miguelsolorio.fluent-icons",
+    "PKief.material-icon-theme",
+    "zhuangtongfa.material-theme",
+    "GitHub.copilot"
   ],
   "unwantedRecommendations": []
 }
