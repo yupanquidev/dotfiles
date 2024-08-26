@@ -7,7 +7,6 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
-  "editor.detectIndentation": true,
   "editor.find.cursorMoveOnType": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.folding": true,
@@ -109,5 +108,7 @@
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "console-ninja.featureSet": "Community"
 }
