@@ -1,0 +1,11 @@
+{
+  "theme": "yupanquidev",
+  "editor.fontFamily": "Monaspace Neon",
+  "editor.lineSpacing": 1.5,
+  "editor.fontSize": 12.5,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.caretSmoothAnimation": true,
+  "editor.showFileDetails": false,
+  "editor.showNavBar": false
+}
