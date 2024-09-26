@@ -29,13 +29,15 @@
   "alwaysShowNotificationIcon": true,
   "alwaysShowTabs": false,
   "autoHideWindow": false,
-  "copyFormatting": "all",
+  "centerOnLaunch": true,
+  "confirmCloseAllTabs": false,
+  "copyFormatting": "none",
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "experimental.rendering.forceFullRepaint": true,
   "experimental.rendering.software": true,
   "focusFollowMouse": false,
-  "initialCols": 110,
-  "initialRows": 25,
+  "initialCols": 114,
+  "initialRows": 26,
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -43,12 +45,14 @@
   ],
   "profiles": {
     "defaults": {
+      "adjustIndistinguishableColors": "always",
       "colorScheme": "yupanquidev",
       "font": {
         "face": "MesloLGM Nerd Font",
         "size": 9.0,
         "weight": "bold"
       },
+      "historySize": 1000,
       "opacity": 85,
       "padding": "8",
       "scrollbarState": "hidden",
