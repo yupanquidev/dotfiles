@@ -48,12 +48,12 @@ force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-        # We have color support; assume it's compliant with Ecma-48
-        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-        # a case would tend to support setf rather than setaf.)
-            color_prompt=yes
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	    color_prompt=yes
     else
-            color_prompt=
+	    color_prompt=
     fi
 fi
 
@@ -85,9 +85,12 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lh'
-alias la='ls -lha'
-alias l='ls -CF'
+alias lla='lsd -lha --group-dirs=first'
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias ls='lsd --group-dirs=first'
+alias cat='batcat'
 alias em='emacs -nw'
 alias _='sudo'
 alias _i='sudo -i'
@@ -96,17 +99,17 @@ alias please='sudo'
 
 # Set 'man' colors
 if [ "$color_prompt" = yes ]; then
-        man() {
-        env \
-        LESS_TERMCAP_mb=$'\e[01;31m' \
-        LESS_TERMCAP_md=$'\e[01;31m' \
-        LESS_TERMCAP_me=$'\e[0m' \
-        LESS_TERMCAP_se=$'\e[0m' \
-        LESS_TERMCAP_so=$'\e[01;44;33m' \
-        LESS_TERMCAP_ue=$'\e[0m' \
-        LESS_TERMCAP_us=$'\e[01;32m' \
-        man "$@"
-        }
+	man() {
+	env \
+	LESS_TERMCAP_mb=$'\e[01;31m' \
+	LESS_TERMCAP_md=$'\e[01;31m' \
+	LESS_TERMCAP_me=$'\e[0m' \
+	LESS_TERMCAP_se=$'\e[0m' \
+	LESS_TERMCAP_so=$'\e[01;44;33m' \
+	LESS_TERMCAP_ue=$'\e[0m' \
+	LESS_TERMCAP_us=$'\e[01;32m' \
+	man "$@"
+	}
 fi
 
 function hex-encode()
