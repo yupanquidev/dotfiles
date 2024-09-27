@@ -68,7 +68,11 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
+alias lla='lsd -lha --group-dirs=first'
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias ls='lsd --group-dirs=first'
 alias pn='pnpm'
 alias px='pnpm dlx'
 alias cat='batcat'
@@ -97,14 +101,14 @@ function extractPorts(){
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # fnm
-FNM_PATH="/home/yupan/.local/share/fnm"
+FNM_PATH="/home/yupanquidev/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
-  export PATH="/home/yupan/.local/share/fnm:$PATH"
+  export PATH="/home/yupanquidev/.local/share/fnm:$PATH"
   eval "`fnm env`"
 fi
 
 # pnpm
-export PNPM_HOME="/home/yupan/.local/share/pnpm"
+export PNPM_HOME="/home/yupanquidev/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
