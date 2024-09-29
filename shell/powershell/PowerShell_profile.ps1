@@ -12,17 +12,6 @@ New-Alias figma "C:\Users\yupan\AppData\Local\Figma\Figma.exe"
 # Set Aliases
 Set-Alias touch ni
 
-# Function Aliases
-function bravei { brave --incognito }
-function arc { start arc }
-function g { git }
-function ga { git add }
-function gaa { git add . }
-function gb { git branch }
-function gc { git commit }
-function gp { git pull }
-function gp { git push }
-
 # PNPM
 Set-Alias -Name pn -value pnpm
 
