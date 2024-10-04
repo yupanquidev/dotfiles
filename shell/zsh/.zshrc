@@ -99,4 +99,3 @@ function extractPorts(){
 
 # Shell integrations
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
