@@ -2,5 +2,4 @@
 - BATCAT:
 - FZF:
 - ZINIT:
-- ZINIT:
 - ble.sh for bash
