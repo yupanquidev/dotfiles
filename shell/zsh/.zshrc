@@ -67,23 +67,10 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-# Aliases
-alias lla='lsd -lha --group-dirs=first'
-alias ll='lsd -lh --group-dirs=first'
-alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
-alias ls='lsd --group-dirs=first'
-alias pn='pnpm'
-alias px='pnpm dlx'
-alias cat='batcat'
-alias g='git'
-alias gp='git push'
-alias gl='git pull'
-alias ga='git add'
-alias gc='git commit'
-alias gs='git status'
-alias gb='git branch'
-alias ggraph='git log --all --decorate --oneline --graph'
+# aliases
+if [ -f ~/.aliases ]; then
+  . ~/.aliases
+fi
 
 # Extract nmap information
 function extractPorts(){
