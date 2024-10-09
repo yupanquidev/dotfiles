@@ -15,7 +15,7 @@
 <h3 align="center">~/.dotfiles</h3>
 <p align="center">My personal configurations. Here you'll find my dotfiles and settings for various tools I use daily, such as zsh, vscode, and git. These files help me optimize my workflow and customize my development experience.</p>
 <pre align="center">
-  <a href="#seedling--setup">Shell</a> • <a href="#four_leaf_clover--key-bindings">Tools</a> • <a href="#herb--guides"> Git configuration</a>
+  <a href="/shell/">Shell</a> • <a href="#resources">Tools</a> • <a href="/git/">Git configuration</a>
 </pre>
 <h1>
   <a href="#">
