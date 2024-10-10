@@ -37,47 +37,55 @@ A collection of my settings, tools, and other resources that help me streamline 
 ## Resources
 Resources, tools and technologies that I use daily.
 ### Operating Systems (OS)
-- **Windows**: I use Windows 11 Pro as my primary operating system for development.
-- **WSL**: Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables natively on Windows 11.
-  - **Debian**: I use as my primary Linux distribution on WSL, .
-  - **Parrot OS**: I use for security testing.
+- **[Windows 11](https://www.microsoft.com/en-us/software-download/windows11)**: I use Windows 11 Pro as my primary operating system for development.
+- **[WSL](https://learn.microsoft.com/en-us/windows/wsl/)**: Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables natively on Windows 11.
+  - **[Debian](https://www.debian.org/)**: I use as my primary Linux distribution on WSL, .
+  - **[Parrot OS](https://parrotsec.org/)**: Security testing.
 ### Terminals and Shells
-- **PoweShell 7**: I use PowerShell for Windows.
-- **Zsh**: I use Zsh as my primary shell.
-- **Bash**: I use Bash as my secondary shell.
+- **Terminals**:
+  - **[Warp](https://www.warp.dev/)**: Terminal emulator.
+  - **[Windows Terminal](https://github.com/microsoft/terminal)**: Terminal emulator for Windows.
+- **Shells**:
+  - **[PoweShell 7](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/what-s-new-in-powershell-74?view=powershell-7.4)**: I use PowerShell for Windows.
+  - **Zsh**: I use Zsh as my primary shell.
+  - **Bash**: I use Bash as my secondary shell.
 ### Languages and Frameworks
 - **Frontend**:
-  - **HTML**: Structure of web pages.
-  - **CSS**: Styling web pages.
-  - **JavaScript**: Adding interactivity to web pages.
+  - **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**: Structure of web pages.
+  - **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)**: Styling web pages.
+  - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Adding interactivity to web pages.
 - **Backend**:
-  - **Node.js**: JavaScript runtime.
-  - **TypeScript**: Superset of JavaScript.
+  - **[Node.js](https://nodejs.org/)**: JavaScript runtime.
+  - **[TypeScript](https://www.typescriptlang.org/)**: Superset of JavaScript.
 - **Frameworks**:
-  - **Astro**: Static site generator.
-  - **Tailwind CSS**: Utility-first CSS framework.
-  - **Svelte**: Frontend framework.
+  - **[Astro](https://astro.build/)**: Static site generator.
+  - **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework.
+  - **[Svelte](https://svelte.dev/)**: Frontend framework.
 ### Editors
-- **Visual Studio Code**: I use VS Code as my primary code editor.
-- **Zed**: Secondary code editor, I'm trying.
+- **[Visual Studio Code](https://code.visualstudio.com/)**: I use VS Code as my primary code editor.
+- **[Zed](https://zed.dev/)**: Secondary code editor, I'm trying.
 ### Others
-- **Oxc**: 
-- **Curl**: Command-line tool for transferring data.
+- **[Oxc](https://oxc.rs/)**: A collection of JavaScript tools.
+- **[Curl](https://curl.se/)**: Command-line tool and library transferring data with URLs.
 - **Wget**: Command-line tool for downloading files.
-- **Git**: Version control system.
-- **PostgreSQL**: Relational database management system.
-- **Supabase**: Open-source Firebase alternative.
-- **Cloudflare**: Web infrastructure and website security company.
-- **Vercel**: Cloud platform for static sites and serverless functions.
-- **DonDominio**: Domain registrar.
-- **GitHub Copilot**: AI pair programmer.
-- **Figma**: Collaborative interface design tool.
+- **[Git](https://git-scm.com/)**: Version control system.
+- **[PostgreSQL](https://www.postgresql.org/)**: Relational database management system.
+- **[Supabase](https://supabase.com/)**: Open-source Firebase alternative.
+- **[Cloudflare](https://www.cloudflare.com/)**: Web infrastructure and website security company.
+- **[Vercel](https://vercel.com/)**: Cloud platform for static sites and serverless functions.
+- **[DonDominio](https://www.dondominio.com/)**: Domain registrar.
+- **[GitHub Copilo](https://github.com/features/copilot)t**: AI pair programmer.
+- **[Figma](https://www.figma.com/)**: Collaborative interface design tool.
 - **Browsers**:
-  - **Brave**: Privacy-focused browser.
-  - **Arc**: Browser based on Chromium.
-  - **Extensions**: Wappalyzer, JSON Viewer, [Material Icons for GitHub](https://chromewebstore.google.com/detail/material-icons-for-github/bggfcpfjbdkhfhfmkjpbhnkhnpjjeomc).
-- **GitHub Actions**: CI/CD service.
-- **1.1.1.1**: DNS resolver.
-- **Spotify**: Music streaming service.
+  - **[Brave](https://brave.com/)**: Privacy-focused browser.
+  - **[Arc](https://arc.net/)**: Browser based on Chromium.
+  - **Extensions**: 
+    - [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) 
+    - [JSON Viewer](https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+    - [Material Icons for GitHub](https://chromewebstore.google.com/detail/material-icons-for-github/bggfcpfjbdkhfhfmkjpbhnkhnpjjeomc).
+- **[GitHub Actions](https://github.com/features/actions)**: CI/CD service.
+- **[1.1.1.1](https://one.one.one.one/)**: DNS resolver.
+- **[optimg.xyz](https://www.optimg.xyz/)**: Image optimization service.
+- **[Spotify](https://open.spotify.com/)**: Music streaming service.
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/yupanquidev/dotfiles/blob/main/LICENSE) for more information.
