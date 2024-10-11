@@ -74,7 +74,7 @@ Resources, tools and technologies that I use daily.
 - **[Cloudflare](https://www.cloudflare.com/)**: Web infrastructure and website security company.
 - **[Vercel](https://vercel.com/)**: Cloud platform for static sites and serverless functions.
 - **[DonDominio](https://www.dondominio.com/)**: Domain registrar.
-- **[GitHub Copilo](https://github.com/features/copilot)t**: AI pair programmer.
+- **[GitHub Copilot](https://github.com/features/copilot)**: AI pair programmer.
 - **[Figma](https://www.figma.com/)**: Collaborative interface design tool.
 - **Browsers**:
   - **[Brave](https://brave.com/)**: Privacy-focused browser.
