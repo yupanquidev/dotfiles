@@ -12,8 +12,16 @@ New-Alias figma "C:\Users\yupan\AppData\Local\Figma\Figma.exe"
 # Set Aliases
 Set-Alias touch ni
 
+# Function Aliases
+function bravei { brave --incognito }
+function arc { start arc }
+
 # PNPM
-Set-Alias -Name pn -value pnpm
+Set-Alias -Name pn -Value pnpm
+Set-Alias -Name cat -Value bat
+
+# git
+Set-Alias -Name g -Value git
 
 # FNM
 fnm env --use-on-cd | Out-String | Invoke-Expression
