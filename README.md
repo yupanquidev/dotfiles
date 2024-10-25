@@ -86,6 +86,7 @@ Resources, tools and technologies that I use daily.
 - **[GitHub Actions](https://github.com/features/actions)**: CI/CD service.
 - **[1.1.1.1](https://one.one.one.one/)**: DNS resolver.
 - **[optimg.xyz](https://www.optimg.xyz/)**: Image optimization service.
+- **[Responsively](https://responsively.app/)**: Responsive design testing tool.
 - **[Spotify](https://open.spotify.com/)**: Music streaming service.
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/yupanquidev/dotfiles/blob/main/LICENSE) for more information.
