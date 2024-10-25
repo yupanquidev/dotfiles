@@ -72,5 +72,10 @@ if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
 
+# functions
+if [ -f ~/.functions ]; then
+  . ~/.functions
+fi
+
 # Shell integrations
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
