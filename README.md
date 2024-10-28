@@ -89,6 +89,7 @@ Resources, tools and technologies that I use daily.
 - **[Responsively](https://responsively.app/)**: Responsive design testing tool.
 - **[Omatsuri](https://omatsuri.app/)**: Tools for everyday use.
 - **[Tabler Icons](https://tabler.io/icons)**: Icons.
+- **[Speedtest](https://www.speedtest.net/)**: Internet speed test.
 - **[Spotify](https://open.spotify.com/)**: Music streaming service.
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/yupanquidev/dotfiles/blob/main/LICENSE) for more information.
