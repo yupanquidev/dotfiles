@@ -24,7 +24,7 @@ Set-Alias -Name cat -Value bat
 Set-Alias -Name g -Value git
 
 # FNM
-fnm env --use-on-cd | Out-String | Invoke-Expression
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
 
 Set-PSReadLineOption -PredictionViewStyle ListView
 
