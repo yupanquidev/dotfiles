@@ -1,9 +1,7 @@
 {
   "recommendations": [
     "astro-build.astro-vscode",
-    "bradlc.vscode-tailwindcss",
     "ms-vscode-remote.remote-wsl",
-    "dbaeumer.vscode-eslint",
     "Meezilla.json",
     "bradlc.vscode-tailwindcss",
     "pflannery.vscode-versionlens",
