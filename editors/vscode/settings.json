@@ -87,9 +87,6 @@
   "oneDarkPro.bold": true,
   "oneDarkPro.editorTheme": "One Dark Pro Darker",
   "oneDarkPro.vivid": true,
-  "scm.experimental.showHistoryGraph": true,
-  "svelte.enable-ts-plugin": true,
-  "svelte.plugin.svelte.format.config.singleQuote": true,
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.fontFamily": "'MesloLGM NF'",
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
@@ -110,5 +107,5 @@
   "workbench.tree.enableStickyScroll": true,
   "workbench.productIconTheme": "fluent-icons",
   "security.workspace.trust.untrustedFiles": "open",
-  "console-ninja.featureSet": "Community"
+  "git.autofetch": true
 }
