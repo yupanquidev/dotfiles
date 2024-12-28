@@ -7,12 +7,8 @@ fi
 
 # ZINIT: Zshell plugin manager
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-
-if [ ! -d $ZINIT_HOME ]; then
-  mkdir -p "$(dirname $ZINIT_HOME)"
-  git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
-fi
-
+[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
+[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Powerlevel10k
@@ -22,7 +18,8 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-zinit light Aloxaf/fzf-tab
+
+source ~/.local/share/zsh-plugins/sudo.zsh
 
 # Snippets
 zinit snippet OMZP::git
@@ -68,14 +65,11 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # aliases
-if [ -f ~/.aliases ]; then
-  . ~/.aliases
+if [ -f ~/.aliases.sh ]; then
+  . ~/.aliases.sh
 fi
 
 # functions
-if [ -f ~/.functions ]; then
-  . ~/.functions
+if [ -f ~/.functions.sh ]; then
+  . ~/.functions.sh
 fi
-
-# Shell integrations
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -1,22 +1,11 @@
 # ls
-alias l="eza --icons  --git --git-repos --git-repos-no-status"
-alias ls="eza -la -a --icons --git --git-repos --git-repos-no-status --changed --total-size"
-alias ld="eza -Dla --icons --total-size"
-alias lf="eza -fla --icons --total-size"
-alias ll="eza -la --icons --git --git-repos --git-repos-no-status --changed --total-size"
-alias la="eza -agx --icons"
-alias lt="eza -lTg --icons"
-alias lt1="eza -lTg --level=1 --icons"
-alias lt2="eza -lTg --level=2 --icons"
-alias lt3="eza -lTg --level=3 --icons"
-alias lta="eza -lTag --icons"
-alias lta1="eza -lTag --level=1 --icons"
-alias lta2="eza -lTag --level=2 --icons"
-alias lta3="eza -lTag --level=3 --icons"
+alias ls="lsd"
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
 
 # tree
-alias tree="eza --tree"
-alias treei="eza --tree --icons"
+alias tree="ls --tree"
 
 # cat
 alias cat="batcat"
