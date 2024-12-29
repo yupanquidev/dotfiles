@@ -13,6 +13,9 @@ alias cat="batcat"
 # pnpm
 alias pn="pnpm"
 alias px="pnpm dlx"
+alias pnd="pnpm run dev"
+alias pni="pnpm install"
+alias pnu="pnpm update"
 
 # git
 ## add & commit
@@ -141,3 +144,69 @@ alias gts="git tag -s"
 alias gvt="git verify-tag"
 alias gtv="git tag | sort -V"
 alias gsps="git show --pretty=short --show-signature"
+
+# composer
+alias c='composer'
+alias ccp='composer create-project'
+alias cdo='composer dump-autoload -o'
+alias cdu='composer dump-autoload'
+alias cget='curl -s https://getcomposer.org/installer | php'
+alias cgr='composer global require'
+alias cgrm='composer global remove'
+alias cgu='composer global update'
+alias ci='composer install'
+alias co='composer outdated'
+alias cod='composer outdated --direct'
+alias cr='composer require'
+alias crm='composer remove'
+alias cs='composer show'
+alias csu='composer self-update'
+alias cu='composer update'
+alias cuh='composer update --working-dir=$(composer config -g home)'
+
+# laravel & php
+alias artisan='php artisan'
+alias bob='php artisan bob::build'
+
+## Development
+alias pas='php artisan serve'
+alias pats='php artisan test'
+
+## Database
+alias pam='php artisan migrate'
+alias pamf='php artisan migrate:fresh'
+alias pamfs='php artisan migrate:fresh --seed'
+alias pamr='php artisan migrate:rollback'
+alias pads='php artisan db:seed'
+
+## Makers
+alias pamm='php artisan make:model'
+alias pamc='php artisan make:controller'
+alias pams='php artisan make:seeder'
+alias pamt='php artisan make:test'
+alias pamfa='php artisan make:factory'
+alias pamp='php artisan make:policy'
+alias pame='php artisan make:event'
+alias pamj='php artisan make:job'
+alias paml='php artisan make:listener'
+alias pamn='php artisan make:notification'
+alias pampp='php artisan make:provider'
+alias pamcl='php artisan make:class'
+alias pamen='php artisan make:enum'
+alias pami='php artisan make:interface'
+alias pamtr='php artisan make:trait'
+
+## Clears
+alias pacac='php artisan cache:clear'
+alias pacoc='php artisan config:clear'
+alias pavic='php artisan view:clear'
+alias paroc='php artisan route:clear'
+alias paopc='php artisan optimize:clear'
+
+## queues
+alias paqf='php artisan queue:failed'
+alias paqft='php artisan queue:failed-table'
+alias paql='php artisan queue:listen'
+alias paqr='php artisan queue:retry'
+alias paqt='php artisan queue:table'
+alias paqw='php artisan queue:work'
